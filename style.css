@@ -9,3 +9,8 @@
     background-color: rgb(18, 89, 196);
     color: rgb(153, 153, 153);
     }
+
+.menu {
+    text-align: center;
+    font-weight: bold;
+}
