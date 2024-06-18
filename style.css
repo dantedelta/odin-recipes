@@ -1,5 +1,15 @@
 /* styles */
 
+/* html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+} */
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -50,6 +60,14 @@ a {
     max-width: 300px;
     margin-top: 10px;
     height: auto; 
+    display: flex;
+}
+
+.lista-menu li a {
+    max-width: 300px;
+    margin-top: 10px;
+    height: auto;
+    display: block; 
 }
 
 #ingredients,
