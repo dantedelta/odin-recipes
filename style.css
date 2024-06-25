@@ -14,10 +14,23 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     line-height: 200%;
+    background-color:antiquewhite;
 }
 a {
     text-decoration: none;
     font-weight: bolder;
+}
+
+.titleh2 {
+    text-align: center;
+    font-style: italic;
+    border: solid rgb(9, 183, 189) 2px;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.recipes_container {
+    border: solid rgba(144, 238, 144, 0.397) 10px;
+    padding: 0 .5em;
 }
 
 .imgmenu {
@@ -30,15 +43,22 @@ a {
 .titleh3 {
     text-align: center;
     background-color: rgb(18, 89, 196);
-    color: rgb(153, 153, 153);
+    color: rgba(0, 0, 0, 0.89);
     }
+
 #pdesc {
     text-align: center;
 }
 
 .menu {
     text-align: center;
-    font-weight: bold;
+    margin: 0 auto;
+}
+
+.menu a {
+    background-color: rgb(0, 175, 245);
+    color: whitesmoke;
+    font-weight:5px;
 }
 
 .lista-menu {
@@ -49,26 +69,28 @@ a {
 }
 
 .lista-menu li {
+    background-color: none;
+    color: white;
     flex: 1 1 50%;
     box-sizing: border-box;
-    padding: 10px;
     text-align: center;
     font-weight: bolder;
-    background-color: rgb(255, 255, 255);
-    color: white;
 }
 
 .lista-menu li img {
-    max-width: 300px;
-    margin-top: 10px;
-    height: auto; 
-    display: flex;
+    max-width: 260px;
+    margin: auto;
+    height: 180px; 
+    display: block;
+    border-radius: 5%;
 }
 
 .lista-menu li a {
+    background-color: rgb(0, 175, 245);
+    color: whitesmoke;
+    border-radius: 8%;
     max-width: 300px;
-    margin-top: 10px;
-    height: auto;
+    margin: .5em auto;
     display: block; 
 }
 
